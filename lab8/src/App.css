@@ -1,0 +1,83 @@
+/* src/App.css */
+
+.app {
+    padding: 20px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.shop-page {
+    display: flex;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    flex: 1;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.cart {
+    position: relative;
+    width: 300px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-item img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-total {
+    margin-top: 20px;
+}
+
+.cart-total button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-info {
+    margin-top: 20px;
+}
+
+.order-success {
+    margin-top: 20px;
+    color: green;
+}
